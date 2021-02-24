@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+
+section{
+    background:url(images/hero-background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15vh;
+    background: #d8155a;
+
+    
+}
+nav ul{ list-style: none;
+        float: right;
+        display:flex;
+        flex-direction: row;
+       justify-content: space-between;
+       margin-right: 5vh;        
+}
+nav ul li{
+    margin: 10px 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#logokda { width: 8%;
+            height: 9vh;
+            margin-left: 30px;
+            margin-top: 10px;
+    
+
+}
+section{
+    padding-top: 20vh;
+}
+section p{
+    font-size: 4,2em;
+    text-align: center;
+    color: white;
+    font-family: ;
+    font-weight: bolder;
+}
+#qual{
+    color: yellow;
+}
+#bouton_centre{
+    text-align: center;
+    
+}
+.btn{
+    margin-right: 15px;
+    margin-bottom: 12px;
+    width: 20%;
+    height: 10vh;
+    background-color: white;
+    color: #EF0049;
+    font-size: 1,2em;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border: solid white 2px;
+    border-radius: 20px;
+
+    
+
+}
+section h1{
+    margin-top: 20vh;
+    font-size: 4.2em;
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:bold;
+}
+section p{ font-family:'Montserrat', sans-serif; ;
+
+}
